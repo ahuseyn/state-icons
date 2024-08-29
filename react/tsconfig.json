@@ -1,0 +1,17 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "dist",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node"
+  }
+}

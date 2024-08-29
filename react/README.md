@@ -1,13 +1,8 @@
-# State Icons
+# State Icons React
 
-SVG icons of the 51 states of United States of America. The icons can be customized by adjusting its color, size, and other SVG properties.
+TypeScript compatible React icon library of the 51 states of United States of America. The icons can be customized by adjusting its color, size, and other SVG properties.
 
-## SVG usage
-
-- You can get individual SVG files from **/icons** folder.
-- Alternatively, you can visit the home page [ahuseyn.github.io/state-icons/](https://ahuseyn.github.io/state-icons/) to copy SVG snippet and use directly.
-
-## React usage
+## Usage
 
 - Install the library
 

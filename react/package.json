@@ -1,0 +1,33 @@
+{
+  "name": "@state-icons/react",
+  "version": "0.1.0",
+  "description": "SVG icons of the states of USA for React",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:icons && npm run build:bundle",
+    "reset": "npm run reset:bundle && rm -rf src/icons && rm -rf src/index.ts",
+    "reset:bundle": "rm -rf dist",
+    "build:icons": "node src/buildComponents.js",
+    "build:bundle": "npm run reset:bundle && rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "keywords": [],
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.4",
+    "react": "^18.3.1",
+    "rollup": "^4.18.1",
+    "typescript": "^5.5.3"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "author": "Huseyn Aghayev",
+  "license": "MIT"
+}

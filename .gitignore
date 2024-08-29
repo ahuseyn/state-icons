@@ -1,2 +1,7 @@
 /.DS_Store
 /TODO
+/react/.DS_Store
+/react/dist/.DS_Store
+/react/node_modules
+/react/src/icons
+/react/src/index.ts

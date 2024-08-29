@@ -1,9 +1,10 @@
 {
   "name": "state-icons",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "SVG icons of the states of USA",
   "type": "module",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build:docs": "node src/buildDocs.js",
     "build:icons": "node src/buildIcons.js"
   },
