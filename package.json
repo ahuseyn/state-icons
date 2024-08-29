@@ -1,0 +1,12 @@
+{
+  "name": "state-icons",
+  "version": "0.1.0",
+  "description": "SVG icons of the states of USA",
+  "type": "module",
+  "scripts": {
+    "build:docs": "node src/buildDocs.js",
+    "build:icons": "node src/buildIcons.js"
+  },
+  "author": "Huseyn Aghayev",
+  "license": "MIT"
+}
