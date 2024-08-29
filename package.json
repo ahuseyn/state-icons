@@ -1,6 +1,6 @@
 {
   "name": "state-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SVG icons of the states of USA",
   "type": "module",
   "scripts": {
